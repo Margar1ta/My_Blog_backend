@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "start": "node --experimental-modules index.mjs",
+    "dev:start": "nodemon --watch"
+  },
+  "name": "express_starters1",
+  "version": "1.0.2",
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "main": "index.mjs",
+  "repository": "https://github.com/GossJS/express_starters1.git",
+  "author": "GossJS",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "graceful-fs": "^4.1.11",
+    "jsonfile-promised": "^0.0.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.12.2"
+  }
+}
