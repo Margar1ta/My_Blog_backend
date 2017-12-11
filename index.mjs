@@ -45,15 +45,12 @@ app
     ///////    ?key=*    ///////////////////
     res.send('Margarita Iakovleva');
   })*/
-  .get(/(\/author\/\?key=ooo$)/, function (req, res) {
-    ///////    ?key=*    ///////////////////
-    res.send('Margarita Iakovleva');
-  })
+
   .get( /(posts1\?xyz=\d+)/, function (req, res) {
     ///////    ?key=*    ///////////////////
     res.send('Hurrey!!!!!!');
   })
-  .get(/(\/author\/\?)/, function (req, res) {
+  .get(/(\/author)/, function (req, res) {
     ///////    ?key=*    ///////////////////
     res.send('Margarita Iakovleva');
   })/*
